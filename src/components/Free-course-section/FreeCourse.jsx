@@ -6,39 +6,61 @@ import courseImg02 from "../../assests/images/kids-learning.png";
 import courseImg03 from "../../assests/images/seo.png";
 import courseImg04 from "../../assests/images/ui-ux.png";
 import FreeCourseCard from "./FreeCourseCard";
+import football from "../../assests/images/coach-football-team.jpeg";
+import cricket from "../../assests/images/cricket.jpg";
 
 import "./free-course.css";
 
 const freeCourseData = [
   {
     id: "01",
-    title: "Basic Web Development Course",
-    imgUrl: courseImg01,
-    students: 5.3,
+    title: "Football Foundation Course",
+    imgUrl: football,
+    hours: 35,
     rating: 1.7,
+    level: "Advanced",
   },
   {
     id: "02",
-    title: "Coding for Junior Basic Course",
-    imgUrl: courseImg02,
-    students: 5.3,
+    title: "Football Beginner",
+    imgUrl: football,
+    hours: 53,
     rating: 1.7,
+    level: "Intermediate",
   },
 
   {
     id: "03",
-    title: "Search Engine Optimization - Basic",
-    imgUrl: courseImg03,
-    students: 5.3,
+    title: "Football- Stratergies",
+    imgUrl: football,
+    hours: 50,
     rating: 1.7,
+    level: "Basic",
   },
 
   {
     id: "04",
-    title: "Basic UI/UX Design - Figma",
-    imgUrl: courseImg04,
-    students: 5.3,
+    title: "Football Team Building",
+    imgUrl: football,
+    hours: 5,
     rating: 1.7,
+    level: "Intermediate",
+  },
+  {
+    id: "05",
+    title: "Football Team Building",
+    imgUrl: football,
+    hours: 5,
+    rating: 1.7,
+    level: "Intermediate",
+  },
+  {
+    id: "06",
+    title: "Football- Stratergies",
+    imgUrl: football,
+    hours: 50,
+    rating: 1.7,
+    level: "Basic",
   },
 ];
 

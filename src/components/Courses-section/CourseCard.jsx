@@ -5,10 +5,23 @@ const CourseCard = (props) => {
 
   return (
     <div className="single__course__item">
-      <div className="course__img">
+      {/* <div className="course__img">
         <img src={imgUrl} alt="" className="w-100" />
+      </div> */}
+      <div className="videoContainer">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/j284YeATTAI"
+          title="YouTube video player"
+          // src={props.link}
+          // title={props.title}
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <div>name</div>
       </div>
-
       <div className="course__details">
         <h6 className="course__title mb-4">{title}</h6>
 

@@ -16,23 +16,23 @@ const coursesData = [
     imgUrl: courseImg1,
   },
 
-  {
-    id: "02",
-    title: "Professional Graphics Design, PhotoShop, Adobe XD, Figma",
-    lesson: 12,
-    students: 12.5,
-    rating: 5.9,
-    imgUrl: courseImg2,
-  },
+  // {
+  //   id: "02",
+  //   title: "Professional Graphics Design, PhotoShop, Adobe XD, Figma",
+  //   lesson: 12,
+  //   students: 12.5,
+  //   rating: 5.9,
+  //   imgUrl: courseImg2,
+  // },
 
-  {
-    id: "03",
-    title: "UI/UX BootCamp for Beginners in 2022",
-    lesson: 12,
-    students: 12.5,
-    rating: 5.9,
-    imgUrl: courseImg3,
-  },
+  // {
+  //   id: "03",
+  //   title: "UI/UX BootCamp for Beginners in 2022",
+  //   lesson: 12,
+  //   students: 12.5,
+  //   rating: 5.9,
+  //   imgUrl: courseImg3,
+  // },
 ];
 
 const Courses = () => {
